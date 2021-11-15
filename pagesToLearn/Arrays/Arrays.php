@@ -1,3 +1,14 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../style/style.css">
+    <title>Learn PHP</title>
+</head>
+<body>
 <?php
 echo "<p><b>Индексированные массивы</b></p>\n";
 // моментальное создание массива
@@ -35,3 +46,6 @@ echo "<p><b>Вывод индексированного массива в вид
 echo "days = array('Sunday', 'Monday', 'Thursday')\n<br>";
 echo 'foreach ($days as $day) {echo "&bull $day";}   &nbsp; &nbsp;//После &bull нужно \';\''."<br>\n";
 foreach ($days as $day) {echo "&bull; $day <br>\n";}
+?>
+</body>
+</html>

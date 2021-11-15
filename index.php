@@ -11,8 +11,8 @@
 <body>
 <h2>Переменные и типы</h2>
 <ul>
-    <li><a href="pagesToLearn/VariablesAndTypes/create_variables.php" target="_blank">Переменные и вывод на экран</a></li>
-    <li><a href="pagesToLearn/Arrays/Arrays.php" target="_blank">Индексированные и Ассоциативные ассивы</a></li>
+    <li><a href="pagesToLearn/VariablesAndTypes/create_variables.php">Переменные и вывод на экран</a></li>
+    <li><a href="pagesToLearn/Arrays/Arrays.php">Индексированные и Ассоциативные массивы</a></li>
     <li><a href="pagesToLearn/Arrays/ArrayToString.php">Преобразование массива в строку и строки в массив</a></li>
     <li><a href="pagesToLearn/Arrays/ArraysSorts.php">Сортировка массивов</a></li>
 </ul>
