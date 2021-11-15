@@ -9,9 +9,9 @@
     <title>Learn PHP</title>
 </head>
 <body>
-<h2>Base</h2>
+<h2>Переменные и типы</h2>
 <ul>
-    <li><a href="pagesToLearn/create_variables.php" target="_blank">Создание переменных и вывод на экран</a></li>
+    <li><a href="pagesToLearn/VariablesAndTypes/create_variables.php" target="_blank">Создание переменных и вывод на экран</a></li>
 </ul>
 </body>
 </html>
