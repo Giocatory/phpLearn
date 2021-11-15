@@ -11,7 +11,8 @@
 <body>
 <h2>Переменные и типы</h2>
 <ul>
-    <li><a href="pagesToLearn/VariablesAndTypes/create_variables.php" target="_blank">Создание переменных и вывод на экран</a></li>
+    <li><a href="pagesToLearn/VariablesAndTypes/create_variables.php" target="_blank">Переменные и вывод на экран</a></li>
+    <li><a href="pagesToLearn/Arrays/Arrays.php" target="_blank">Индексированные и Ассоциативные ассивы</a></li>
 </ul>
 </body>
 </html>
