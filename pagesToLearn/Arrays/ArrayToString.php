@@ -10,6 +10,20 @@
 </head>
 <body>
 <?php
+// implode() - массив в строку, может добавлять разделитель после значений
+echo <<<'TAG'
+<b>Convert array to string</b><br>
+$array_names = array("Mikhail", "Tatyana", "Margarita");<br>
+$array_names_to_string = implode(" ", $array_names);<br>
+echo $array_names_to_string; // Mikhail Tatyana Margarita<br><br>
+TAG;
+
+echo <<<'TAG2'
+<b>Convert string to array</b><br>
+$list_names = "Mikhail, Tatyana, Margarita";<br>
+$array_names = explode(', ', $list_names);<br>
+echo gettype($array_names); // array<br>
+TAG2;
 ?>
 </body>
 </html>
