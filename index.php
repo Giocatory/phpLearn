@@ -9,12 +9,11 @@
     <title>Learn PHP</title>
 </head>
 <body>
-<h2>Переменные и типы</h2>
-<ul>
-    <li><a href="pagesToLearn/VariablesAndTypes/create_variables.php">Переменные и вывод на экран</a></li>
-    <li><a href="pagesToLearn/Arrays/Arrays.php">Индексированные и Ассоциативные массивы</a></li>
-    <li><a href="pagesToLearn/Arrays/ArrayToString.php">Преобразование массива в строку и строки в массив</a></li>
-    <li><a href="pagesToLearn/Arrays/ArraysSorts.php">Сортировка массивов</a></li>
-</ul>
+<form action="authorize.php" method="post">
+    <label>Логин:</label><input type="text" name="username"><br>
+    <label>Пароль:</label><input type="password" name="password"><br>
+    <input type="submit" name="Submit">
+</form>
+
 </body>
 </html>
