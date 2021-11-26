@@ -1,0 +1,59 @@
+:root{
+    --font-for-anchor: "Arial Black", sans-serif;
+    --font-for-all-text: "Verdana", sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url("../img/main-header.jpg");
+    font-family: var(--font-for-all-text);
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.main_header{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.main_header_nav {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-family: var(--font-for-anchor);
+    text-align: center;
+}
+.nav_li:hover {
+    text-shadow: 0 5px 3px aliceblue;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_text, .main_form{
+    margin-top: 2em;
+    text-align: center;
+}
+.main_form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_submit {
+    background: #97abc6;
+    font-weight: bold;
+    border: none;
+}
+.form_submit:hover{
+    border: 1px solid #00db46;
+}
