@@ -8,7 +8,7 @@ $password = $_POST["password"];
 // info from <Form>?
 if ($submit){
     // data validation
-    if ($userName == "Mikhail" && $password == "asembler110level"){
+    if ($userName == "Mikhail" && $password == "12345"){
         // remember the username
         $_SESSION["logged_user"] = $userName;
         // redirect to the desired page
