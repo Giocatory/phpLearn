@@ -27,3 +27,28 @@ echo "\n" . strlen('Миха'); // будет 8, правильно считае
 // Чтобы правильно считала, надо использовать функцию iconv_strlen(); -подсчет символов
 $name = 'Миха любит PHP';
 echo "\n" . iconv_strlen($name);
+echo "\n";
+
+
+// Перевести строку в массив
+$separator = ', ';
+$simple_text = 'Mikhail, Tatyana, Margo, Varvara';
+$array_from_text = explode($separator, $simple_text); // аргументы: разделитель, строка
+echo "type => " . gettype($array_from_text) . "\n";  # type => array
+for ($i = 0; $i < count($array_from_text); $i++){
+    echo "index " . $i+1 . " = " . $array_from_text[$i] . ";\n";
+}
+echo "\n";
+//index 1 = Mikhail;
+//index 2 = Tatyana;
+//index 3 = Margo;
+//index 4 = Varvara;
+
+
+// Перевести массив в строку
+$simple_array = array('Mikhail', 'Tatyana', 'Margo', 'Varvara');
+$separator = "; ";
+$simple_text = implode($separator, $simple_array);
+echo $simple_text . "\n"; // Mikhail; Tatyana; Margo; Varvara
+
+
