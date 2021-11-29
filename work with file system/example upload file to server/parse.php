@@ -1,6 +1,6 @@
 <?php
 //where save upload files
-$upload_dir = 'C:\localhost\phpLearn\work with file system\example upload file to server\upload';
+$upload_dir = 'C:\OpenServer\domains\localhost\phpLearn\work with file system\example upload file to server\upload';
 $destination = $upload_dir . "\\" . $_FILES['myfile']['name'];
 echo "<pre>";
 if (move_uploaded_file($_FILES['myfile']['tmp_name'], $destination)){

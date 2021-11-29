@@ -11,7 +11,7 @@
 <fieldset>
     <legend>Отправка Файла на сервер</legend>
     <form action="parse.php" method="post" enctype="multipart/form-data">
-        <input type="hidden" name="MAX_FILE_SIZE" value="30000">
+<!--        <input type="hidden" name="MAX_FILE_SIZE" value="30000">-->
         <label title="Размер файла не более 3МБ">Загрузить файл: </label><br>
         <input type="file" name="myfile"><br>
         <input type="submit" value="Отпавить фаил">
