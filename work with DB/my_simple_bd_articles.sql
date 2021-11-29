@@ -1,0 +1,2 @@
+UPDATE my_simple_bd.articles SET title = 'Начало работы с PHP', description = 'С чего начинается путь разработчика, если нет никаких знаний?', text = 'Изучение синтаксиса и прочих интересных вещей', author = 'Деркунов М.Ю.', date_create = '2021-11-29 16:01:55' WHERE id = 1;
+UPDATE my_simple_bd.articles SET title = 'Изучение sql или OOP?', description = 'Какую лучше технологию изучать вперед?', text = 'текст о том, с чего лучше начать', author = 'Деркунов М.Ю.', date_create = '2021-11-29 16:01:55' WHERE id = 2;
