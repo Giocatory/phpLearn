@@ -12,6 +12,5 @@ if ($id = $db->query($sql_query)){
     echo "id"."\t|\t"."title"."\t|\t"."description"."\t|\t"."author"."\t|\t"."date_create"."\n";
     foreach ($id as $row){
         echo $row["id"]."\t|\t".$row["title"]."\t|\t".$row["description"]."\t|\t".$row["author"]."\t|\t".$row["date_create"]."\n";
-
     }
 }
