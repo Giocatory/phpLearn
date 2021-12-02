@@ -1,5 +1,5 @@
 <?php
-
+# :: - оператор разрешения видимости
 class Point{
     private int $x;
     private int $y;
