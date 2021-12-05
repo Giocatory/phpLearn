@@ -42,5 +42,5 @@ foreach (get_class_methods('Point') as $key => $value){echo "$key - $value \n";}
 
 
 //echo "class Point have vars\n";
-//echo get_class_vars('Point') . "\n";
-//echo get_parent_class('Point') . "\n";
+//echo get_class_vars('Point') . "\n";   // Если все поля с модификатором private, то этот массив будет пустой
+// echo get_parent_class('Point') . "\n";  // BOOL, есть ли родительский класс
