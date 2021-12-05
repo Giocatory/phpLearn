@@ -6,6 +6,9 @@
 // сервер может опустить некоторые из них или предоставить другие.
 $total = 0;
 foreach ($_SERVER as $key => $value){echo $key . ";\t"; $total += 1; if ($total == 6){echo "\n"; $total = 0;}}; echo "\n\n";
+    /**
+     * Вывод у каждого +- будет разный, все зависит от того, какие данные предоставляет сервер
+    */
 //ALLUSERSPROFILE;	APPDATA;	ChocolateyInstall;	ChocolateyLastPathUpdate;	CommonProgramFiles;	CommonProgramFiles(x86);
 //CommonProgramW6432;	COMPUTERNAME;	ComSpec;	DriverData;	FPS_BROWSER_APP_PROFILE_STRING;	FPS_BROWSER_USER_PROFILE_STRING;
 //HOMEDRIVE;	HOMEPATH;	IDEA_INITIAL_DIRECTORY;	LOCALAPPDATA;	LOGONSERVER;	NUMBER_OF_PROCESSORS;
