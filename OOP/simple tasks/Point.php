@@ -8,12 +8,17 @@ class Point{
     /**
      * @return null constructor
      */
-    public function __construct(int $x, int $y)
+    public function __construct(int $x = 0, int $y = 0)
     {
         $this->x = $x;
         $this->y = $y;
         Point::$count += 1;
         return null;
+    }
+
+    public function setCords(int $x, int $y){
+        $this->y = $y;
+        $this->x = $x;
     }
 
     /**
