@@ -5,7 +5,8 @@ $hello('Mikhail');  // Hello, Mikhail!
 echo "\n\n";
 
 // callback function
-function greet(callable $anon){
+function greet(callable $anon): void
+{
     $anon('Tatyana');
 }
 greet($hello);  // Hello, Tatyana!

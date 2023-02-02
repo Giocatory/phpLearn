@@ -16,7 +16,8 @@ class Point{
         return null;
     }
 
-    public function setCords(int $x, int $y){
+    public function setCords(int $x, int $y): void
+    {
         $this->y = $y;
         $this->x = $x;
     }
